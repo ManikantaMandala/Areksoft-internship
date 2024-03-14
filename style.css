@@ -1,0 +1,197 @@
+body {
+    margin: 0;
+    min-width: 320px;
+    min-height: 100vh;
+    background-color: #FBFBFD;
+    font-family: 'Rubik', sans-serif, 'Helvetica Neue', Helvetica, Arial;
+    color: rgb(108, 117, 125)
+}
+
+.logo img{
+    max-height: 10vh;
+    max-width: 10vw;
+}
+.nav-bar{
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+    align-items: center;
+    background-color: #DDE6F1;
+}
+.nav-links {
+    display: flex;
+    padding: 0.5vb;
+    align-items: center;
+}
+.nav-ul{
+    display: inherit;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1.5rem;
+}
+.nav-bar-button{
+    width: auto;
+    background-color: #6064E3;
+    border-radius: 5px;
+    transition: background-color 0.25s;
+    padding: 1rem 3rem;
+    border: 1px solid transparent;
+}
+.nav-ul a{
+    text-decoration: none;
+    color: #2c3e50;
+}
+.nav-bar-button a{
+    text-decoration: none;
+    color: white;
+}
+.nav-bar-button:hover {
+    background-color: transparent;
+    border: 1px solid #2c3e50;
+}
+.nav-bar-button:hover a{
+    color: #2c3e50;
+    border-color: #2c3e50;
+}
+
+.nav-bar-links{
+    color: #2c3e50;
+    font-size: large;
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.elementor-icon-list-icon {
+    margin-right: 10px; 
+}
+
+ .elementor-icon-list-icon svg {
+    width: 30px;
+    height: auto;
+ }
+
+
+.background-gradient{
+    background: linear-gradient(180deg, #DDE6F1 40%, #F2295B00 60%);
+}
+.background-gradient-2{
+    background-color: transparent;
+    background-image: linear-gradient(180deg, #FBFBFD 40%, #F2295B00 60%);
+    margin: 2rem 0rem;
+}
+
+.center-content{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 4rem;
+}
+
+.text-center-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+.img-center-content{
+    width: auto;
+
+}
+
+.side-text{
+    font-size: x-large;
+    width: 35rem;
+}
+.side-text h1{
+    color: rgb(47, 53, 62);
+}
+
+.side-button{
+    width: 95px;
+    background-color: #6064E3;
+    border-radius: 5px;
+    padding: 1rem 3rem;
+    transition: background-color .25s;
+}
+.side-button a{
+    text-decoration: none;
+    color: white;
+}
+.side-button:hover {
+    background-color: #2c3e50;
+}
+
+.elementor-icon-list-text{
+    font-size: large;
+    font-weight: 500;
+}
+
+.center-content img{
+    max-width: 40rem;
+}
+
+.background-gradient-3{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 5rem;
+    background-size: cover;
+    background-image: url(https://recordrr.com/wp-content/uploads/2021/10/bg-01.jpg);
+}
+.background-gradient-3 hr{
+    margin: 2rem;
+    color: white;
+}
+.background-gradient-2 img{
+    position: relative;
+}
+
+.background-gradient-3 div{
+    padding: auto;
+    font-size: x-large;
+    width: 20rem;
+    color: whitesmoke;
+}
+@keyframes slideInFromLeft {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+@keyframes slideInFromRight {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.transition-left-right {
+    animation-name: slideInFromLeft;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: both;
+}
+.transition-right-left {
+    animation-name: slideInFromRight;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: both;
+}
+
