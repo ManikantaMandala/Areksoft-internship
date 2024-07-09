@@ -1,0 +1,109 @@
+.about-page{
+    background-color: #F6F7F8;
+}
+.section-1{
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.5;
+    font-size: 1.1875rem;
+}
+.section-1-wrapper{
+    padding: 0;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.section-1-content{
+    padding: 0 20px;
+    width: 100%;
+}
+.section-1-content h2{
+    color: #2F353E;
+    font-family: "Rubik", Sans-serif;
+    font-size: 54px;
+    font-weight: 500;
+    line-height: 64px;
+    letter-spacing: 0.75px;
+}
+.areksoft{
+    padding: 0 0.25rem;
+    text-decoration: none;
+    color: rgb(108, 117, 125);
+}
+.section-2-wrapper{
+    margin: 0 auto;
+    max-width: 80%;
+}
+.section-2{
+    display: flex;
+    padding: 20px;
+    justify-content: space-around;
+}
+.section-2 img{
+    padding: 2rem;
+}
+.section-2 .img-1{
+    display: flex;
+    width: 50%;
+    height: 50%;
+}
+.section-2 .img-2{
+    display: flex;
+    width: 80%;
+}
+.section-3-wrapper{
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    line-height: 1.5;
+    font-size: 1.25rem;
+}
+.section-3-wrapper h2{
+    color: #2F353E;
+    font-family: "Rubik", Sans-serif;
+    font-size: 54px;
+    font-weight: 500;
+    line-height: 64px;
+    letter-spacing: 0.75px;
+}
+.section-4-wrapper{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.section-4-wrapper .left-section{
+    display: flex;
+    flex-direction: column;
+}
+.section-4-wrapper .right-section{
+    display: flex;
+    flex-direction: column;
+}
+.section-4-wrapper .card-view{
+    display:flex;
+}
+.card-view{
+    max-width: 35rem;
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+}
+.section-5 {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    gap: 4rem;
+    flex-direction: row;
+}
+
+.section-5-element {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    text-align: center; /* Align text within the span */
+}
+
+.animated-text-2 {
+    margin: 0; /* Remove any default margin */
+}
